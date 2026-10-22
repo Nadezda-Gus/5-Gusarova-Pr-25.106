@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="50dad82eacd3493fa7e1825bc78f82c8" Name="Diagram1">
+        <EntityTypeShape EntityType="MiningMetallurgicalPlantModel.ClearanceStatus" Width="1.5" PointX="0.75" PointY="8.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="MiningMetallurgicalPlantModel.Contract" Width="1.5" PointX="15.25" PointY="3.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="MiningMetallurgicalPlantModel.Department" Width="1.5" PointX="0.75" PointY="6.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MiningMetallurgicalPlantModel.DomesticCustomer" Width="1.5" PointX="5.25" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MiningMetallurgicalPlantModel.Employee" Width="1.5" PointX="3" PointY="7.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MiningMetallurgicalPlantModel.Extraction" Width="1.5" PointX="5.25" PointY="8.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="MiningMetallurgicalPlantModel.ImportRequest" Width="1.5" PointX="15.25" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MiningMetallurgicalPlantModel.Inventory" Width="1.5" PointX="5.25" PointY="11.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="MiningMetallurgicalPlantModel.MilitaryShipment" Width="1.5" PointX="13" PointY="7" IsExpanded="true" />
+        <EntityTypeShape EntityType="MiningMetallurgicalPlantModel.Position" Width="1.5" PointX="0.75" PointY="11.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="MiningMetallurgicalPlantModel.RequestStatus" Width="1.5" PointX="13" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="MiningMetallurgicalPlantModel.Role" Width="1.5" PointX="6" PointY="2.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MiningMetallurgicalPlantModel.ShiftReportStatus" Width="1.5" PointX="3" PointY="4.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="MiningMetallurgicalPlantModel.ShiftSchedule" Width="1.5" PointX="0.75" PointY="14.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MiningMetallurgicalPlantModel.ShipmentStatus" Width="1.5" PointX="10.75" PointY="7.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MiningMetallurgicalPlantModel.SocialProgram" Width="1.5" PointX="5.25" PointY="14.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="MiningMetallurgicalPlantModel.Supplier" Width="1.5" PointX="13" PointY="3.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="MiningMetallurgicalPlantModel.SupplierType" Width="1.5" PointX="10.75" PointY="4" IsExpanded="true" />
+        <EntityTypeShape EntityType="MiningMetallurgicalPlantModel.sysdiagrams" Width="1.5" PointX="0.75" PointY="1.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="MiningMetallurgicalPlantModel.User" Width="1.5" PointX="8.25" PointY="8.5" IsExpanded="true" />
+        <AssociationConnector Association="MiningMetallurgicalPlantModel.FK_Employee_ClearanceStatus" ManuallyRouted="false" />
+        <AssociationConnector Association="MiningMetallurgicalPlantModel.FK_Contract_Supplier" ManuallyRouted="false" />
+        <AssociationConnector Association="MiningMetallurgicalPlantModel.FK_Employee_Department" ManuallyRouted="false" />
+        <AssociationConnector Association="MiningMetallurgicalPlantModel.FK_DomesticCustomer_Employee" ManuallyRouted="false" />
+        <AssociationConnector Association="MiningMetallurgicalPlantModel.FK_Employee_Position" ManuallyRouted="false" />
+        <AssociationConnector Association="MiningMetallurgicalPlantModel.FK_Employee_ShiftSchedule" ManuallyRouted="false" />
+        <AssociationConnector Association="MiningMetallurgicalPlantModel.FK_Extraction_Employee" ManuallyRouted="false" />
+        <AssociationConnector Association="MiningMetallurgicalPlantModel.FK_Inventory_Employee" ManuallyRouted="false" />
+        <AssociationConnector Association="MiningMetallurgicalPlantModel.FK_SocialProgram_Employee" ManuallyRouted="false" />
+        <AssociationConnector Association="MiningMetallurgicalPlantModel.FK_User_Employee" ManuallyRouted="false" />
+        <AssociationConnector Association="MiningMetallurgicalPlantModel.FK_Extraction_ShiftReportStatus" ManuallyRouted="false" />
+        <AssociationConnector Association="MiningMetallurgicalPlantModel.FK_ImportRequest_RequestStatus" ManuallyRouted="false" />
+        <AssociationConnector Association="MiningMetallurgicalPlantModel.FK_ImportRequest_Supplier" ManuallyRouted="false" />
+        <AssociationConnector Association="MiningMetallurgicalPlantModel.FK_MilitaryShipment_ShipmentStatus" ManuallyRouted="false" />
+        <AssociationConnector Association="MiningMetallurgicalPlantModel.FK_User_Role" ManuallyRouted="false" />
+        <AssociationConnector Association="MiningMetallurgicalPlantModel.FK_Supplier_SupplierType" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
